@@ -7,6 +7,8 @@ use CodeIgniter\Validation\StrictRules\CreditCardRules;
 use CodeIgniter\Validation\StrictRules\FileRules;
 use CodeIgniter\Validation\StrictRules\FormatRules;
 use CodeIgniter\Validation\StrictRules\Rules;
+use CodeIgniter\Validation\ValidationInterface;
+use App\Validation\MyRules;
 
 class Validation extends BaseConfig
 {
@@ -20,11 +22,19 @@ class Validation extends BaseConfig
      *
      * @var list<string>
      */
+    public function __construct()
+    {
+        parent::__construct();
+
+
+    }
+
     public array $ruleSets = [
         Rules::class,
         FormatRules::class,
         FileRules::class,
         CreditCardRules::class,
+        myRules::class,
     ];
 
     /**
@@ -38,6 +48,15 @@ class Validation extends BaseConfig
         'single' => 'CodeIgniter\Validation\Views\single',
     ];
 
+    public static function validation(bool $getShared = true)
+{
+    if ($getShared)
+    {
+        return static::getSharedInstance('validation');
+    }
+
+    return new Validation(new ValidationService());
+}
     // --------------------------------------------------------------------
     // Rules
     // --------------------------------------------------------------------

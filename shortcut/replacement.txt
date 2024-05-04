@@ -1,0 +1,81 @@
+$this->load->view
+return view
+
+$this->session->userdata
+session()->has
+
+$this->session->flashdata
+session()->getFlashdata
+
+$email = $this->input->post('email');
+$nickname = $this->request->getPost('nickname');
+
+ $this->session->set_userdata('user_id', $user['id']);
+ $this->session->set('user_id', $user['id']);
+ 
+ $this->session->unset_userdata('user_id');
+ $this->session->remove('user_id');
+
+/assets
+<?php echo base_url()?>assets
+
+public function load_database() {
+
+    // Load the database connection
+    $db = db_connect();
+
+    // Check if the connection is successful
+    if ($db->connect_errno) {
+        return false;
+    } else {
+        // Connection successful
+        return true;
+    }
+}  
+
+    protected $user_model;                   
+                                             
+    public function __construct()            
+    {                                        
+        $this->user_model = new User_model();
+    }       
+    
+      public function __construct()                                                                                       
+      {                                                                                  
+          // Load the form validation library                                            
+          $this->validation = \Config\Services::validation();                            
+
+        if ($this->validation->setRules($validationRules)->withRequest($this->request)->run()===false) {
+            // If validation fails, reload the login view
+            $errors = $this->validation->getErrors();
+            $errorString = '<ul>';
+            foreach ($errors as $field => $error) {
+                $errorString .= '<li>' . $error . '</li>';
+            }
+            $errorString .= '</ul>';
+            $this->session->setFlashdata('validation_errors', $errorString);
+            return redirect()->to('login')->withInput();
+
+        }                                                                                      
+      }
+                                                                                  
+      public function yourMethod()                                                       
+      {                                                                                  
+          // Use the form validation library as needed                                   
+          $this->validation->set_rules('nickname', 'Nickname', 'required|alpha_numeric');
+      }  
+      
+          public function __construct()
+    {
+        $this->user_model = new User_model();
+        $this->validation = \Config\Services::validation();
+
+    } 
+                                 
+                                 
+     $validationRules = [                                                                                                       
+         'nickname' => 'required|alpha_numeric',
+     ];    
+     
+     redirect('register');           	
+     return redirect()->to('register')->withInput();                                                                      

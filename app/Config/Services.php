@@ -3,6 +3,7 @@
 namespace Config;
 
 use CodeIgniter\Config\BaseService;
+use Config\Services;
 
 /**
  * Services Configuration file.
@@ -29,4 +30,6 @@ class Services extends BaseService
      *     return new \CodeIgniter\Example();
      * }
      */
+
+
 }

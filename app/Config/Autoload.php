@@ -40,8 +40,11 @@ class Autoload extends AutoloadConfig
      * @var array<string, list<string>|string>
      */
     public $psr4 = [
-        APP_NAMESPACE => APPPATH,
+        'App' => APPPATH, // Add this line if it's not already present
+        'App\Validation' => APPPATH . 'Validation',
+        'App\Helpers'     => APPPATH . 'Helpers',
     ];
+
 
     /**
      * -------------------------------------------------------------------
@@ -90,5 +93,15 @@ class Autoload extends AutoloadConfig
      *
      * @var list<string>
      */
-    public $helpers = [];
+
+    public $helpers = [
+            'url',
+            'form',
+            'security',
+            'session',
+            'form_validation',
+            'pagination',
+            'string_helper',
+    ];
+
 }
