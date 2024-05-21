@@ -1,0 +1,131 @@
+INFO - 2024-05-09 02:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-09 02:52:50 --> UnexpectedValueException: RecursiveDirectoryIterator::__construct(/var/www/mydemy/public/myphonebook/app/Helpers): Failed to open directory: Permission denied
+[Method: GET, Route: __hot-reload]
+in SYSTEMPATH/HotReloader/DirectoryHasher.php on line 74.
+ 1 [internal function]: RecursiveDirectoryIterator->__construct()
+ 2 [internal function]: RecursiveDirectoryIterator->getChildren()
+ 3 SYSTEMPATH/HotReloader/DirectoryHasher.php(74): RecursiveFilterIterator->getChildren()
+ 4 SYSTEMPATH/HotReloader/DirectoryHasher.php(51): CodeIgniter\HotReloader\DirectoryHasher->hashDirectory()
+ 5 SYSTEMPATH/HotReloader/DirectoryHasher.php(36): CodeIgniter\HotReloader\DirectoryHasher->hashApp()
+ 6 SYSTEMPATH/HotReloader/HotReloader.php(37): CodeIgniter\HotReloader\DirectoryHasher->hash()
+ 7 APPPATH/Config/Events.php(51): CodeIgniter\HotReloader\HotReloader->run()
+ 8 SYSTEMPATH/CodeIgniter.php(877): CodeIgniter\Events\Events::Config\{closure}()
+ 9 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-09 02:52:52 --> UnexpectedValueException: RecursiveDirectoryIterator::__construct(/var/www/mydemy/public/myphonebook/app/Helpers): Failed to open directory: Permission denied
+[Method: GET, Route: __hot-reload]
+in SYSTEMPATH/HotReloader/DirectoryHasher.php on line 74.
+ 1 [internal function]: RecursiveDirectoryIterator->__construct()
+ 2 [internal function]: RecursiveDirectoryIterator->getChildren()
+ 3 SYSTEMPATH/HotReloader/DirectoryHasher.php(74): RecursiveFilterIterator->getChildren()
+ 4 SYSTEMPATH/HotReloader/DirectoryHasher.php(51): CodeIgniter\HotReloader\DirectoryHasher->hashDirectory()
+ 5 SYSTEMPATH/HotReloader/DirectoryHasher.php(36): CodeIgniter\HotReloader\DirectoryHasher->hashApp()
+ 6 SYSTEMPATH/HotReloader/HotReloader.php(37): CodeIgniter\HotReloader\DirectoryHasher->hash()
+ 7 APPPATH/Config/Events.php(51): CodeIgniter\HotReloader\HotReloader->run()
+ 8 SYSTEMPATH/CodeIgniter.php(877): CodeIgniter\Events\Events::Config\{closure}()
+ 9 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-09 02:52:53 --> UnexpectedValueException: RecursiveDirectoryIterator::__construct(/var/www/mydemy/public/myphonebook/app/Helpers): Failed to open directory: Permission denied
+[Method: GET, Route: __hot-reload]
+in SYSTEMPATH/HotReloader/DirectoryHasher.php on line 74.
+ 1 [internal function]: RecursiveDirectoryIterator->__construct()
+ 2 [internal function]: RecursiveDirectoryIterator->getChildren()
+ 3 SYSTEMPATH/HotReloader/DirectoryHasher.php(74): RecursiveFilterIterator->getChildren()
+ 4 SYSTEMPATH/HotReloader/DirectoryHasher.php(51): CodeIgniter\HotReloader\DirectoryHasher->hashDirectory()
+ 5 SYSTEMPATH/HotReloader/DirectoryHasher.php(36): CodeIgniter\HotReloader\DirectoryHasher->hashApp()
+ 6 SYSTEMPATH/HotReloader/HotReloader.php(37): CodeIgniter\HotReloader\DirectoryHasher->hash()
+ 7 APPPATH/Config/Events.php(51): CodeIgniter\HotReloader\HotReloader->run()
+ 8 SYSTEMPATH/CodeIgniter.php(877): CodeIgniter\Events\Events::Config\{closure}()
+ 9 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-09 02:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-09 02:53:03 --> UnexpectedValueException: RecursiveDirectoryIterator::__construct(/var/www/mydemy/public/myphonebook/app/Helpers): Failed to open directory: Permission denied
+[Method: GET, Route: __hot-reload]
+in SYSTEMPATH/HotReloader/DirectoryHasher.php on line 74.
+ 1 [internal function]: RecursiveDirectoryIterator->__construct()
+ 2 [internal function]: RecursiveDirectoryIterator->getChildren()
+ 3 SYSTEMPATH/HotReloader/DirectoryHasher.php(74): RecursiveFilterIterator->getChildren()
+ 4 SYSTEMPATH/HotReloader/DirectoryHasher.php(51): CodeIgniter\HotReloader\DirectoryHasher->hashDirectory()
+ 5 SYSTEMPATH/HotReloader/DirectoryHasher.php(36): CodeIgniter\HotReloader\DirectoryHasher->hashApp()
+ 6 SYSTEMPATH/HotReloader/HotReloader.php(37): CodeIgniter\HotReloader\DirectoryHasher->hash()
+ 7 APPPATH/Config/Events.php(51): CodeIgniter\HotReloader\HotReloader->run()
+ 8 SYSTEMPATH/CodeIgniter.php(877): CodeIgniter\Events\Events::Config\{closure}()
+ 9 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-09 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-09 02:53:07 --> UnexpectedValueException: RecursiveDirectoryIterator::__construct(/var/www/mydemy/public/myphonebook/app/Helpers): Failed to open directory: Permission denied
+[Method: GET, Route: __hot-reload]
+in SYSTEMPATH/HotReloader/DirectoryHasher.php on line 74.
+ 1 [internal function]: RecursiveDirectoryIterator->__construct()
+ 2 [internal function]: RecursiveDirectoryIterator->getChildren()
+ 3 SYSTEMPATH/HotReloader/DirectoryHasher.php(74): RecursiveFilterIterator->getChildren()
+ 4 SYSTEMPATH/HotReloader/DirectoryHasher.php(51): CodeIgniter\HotReloader\DirectoryHasher->hashDirectory()
+ 5 SYSTEMPATH/HotReloader/DirectoryHasher.php(36): CodeIgniter\HotReloader\DirectoryHasher->hashApp()
+ 6 SYSTEMPATH/HotReloader/HotReloader.php(37): CodeIgniter\HotReloader\DirectoryHasher->hash()
+ 7 APPPATH/Config/Events.php(51): CodeIgniter\HotReloader\HotReloader->run()
+ 8 SYSTEMPATH/CodeIgniter.php(877): CodeIgniter\Events\Events::Config\{closure}()
+ 9 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-09 02:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-09 02:53:10 --> UnexpectedValueException: RecursiveDirectoryIterator::__construct(/var/www/mydemy/public/myphonebook/app/Helpers): Failed to open directory: Permission denied
+[Method: GET, Route: __hot-reload]
+in SYSTEMPATH/HotReloader/DirectoryHasher.php on line 74.
+ 1 [internal function]: RecursiveDirectoryIterator->__construct()
+ 2 [internal function]: RecursiveDirectoryIterator->getChildren()
+ 3 SYSTEMPATH/HotReloader/DirectoryHasher.php(74): RecursiveFilterIterator->getChildren()
+ 4 SYSTEMPATH/HotReloader/DirectoryHasher.php(51): CodeIgniter\HotReloader\DirectoryHasher->hashDirectory()
+ 5 SYSTEMPATH/HotReloader/DirectoryHasher.php(36): CodeIgniter\HotReloader\DirectoryHasher->hashApp()
+ 6 SYSTEMPATH/HotReloader/HotReloader.php(37): CodeIgniter\HotReloader\DirectoryHasher->hash()
+ 7 APPPATH/Config/Events.php(51): CodeIgniter\HotReloader\HotReloader->run()
+ 8 SYSTEMPATH/CodeIgniter.php(877): CodeIgniter\Events\Events::Config\{closure}()
+ 9 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-09 02:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-09 02:54:57 --> TypeError: trim(): Argument #1 ($string) must be of type string, null given
+[Method: POST, Route: api/add_contact]
+in SYSTEMPATH/Validation/Validation.php on line 319.
+ 1 SYSTEMPATH/Validation/Validation.php(319): trim()
+ 2 SYSTEMPATH/Validation/Validation.php(201): CodeIgniter\Validation\Validation->processRules()
+ 3 APPPATH/Controllers/Api.php(98): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api->add_contact()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-09 02:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 02:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 03:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 03:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 03:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 03:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 04:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 07:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-09 07:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,12 +1,12 @@
 array(5) {
   ["name"]=>
-  string(6) "lonely"
+  string(5) "test3"
   ["address"]=>
-  string(12) "101th Heaven"
+  string(5) "test3"
   ["email"]=>
-  string(20) "instructor@gmail.com"
+  string(15) "test3@gmail.com"
   ["phone_number"]=>
-  string(11) "01523464261"
+  string(10) "2349680517"
   ["remark"]=>
-  string(11) "Hello World"
+  string(5) "test3"
 }
